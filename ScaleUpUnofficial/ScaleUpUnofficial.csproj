@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <GamePath>E:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
+        <GamePath>/workspaces/ScaleUpUnofficial/GameLibs</GamePath>
         <EnableModZip>false</EnableModZip>
     </PropertyGroup>
 
