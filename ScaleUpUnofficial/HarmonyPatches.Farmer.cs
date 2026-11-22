@@ -1,4 +1,4 @@
-using System.Diagnostics.CodeAnalysis;
+/*using System.Diagnostics.CodeAnalysis;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Netcode;
@@ -127,3 +127,4 @@ public partial class HarmonyPatches
     }
 
 }
+*/
