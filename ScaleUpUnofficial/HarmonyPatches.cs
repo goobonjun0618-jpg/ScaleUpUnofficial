@@ -110,7 +110,7 @@ public partial class HarmonyPatches
 
         // HD 农夫精灵支持:FarmerRenderer 会把农夫纹理复制成内部 baseTexture(名字丢失),
         // 且重着色像素索引按原版尺寸计算,两个补丁分别保留资源名与修正 HD 索引
-        harmonyInstance.Patch(AccessTools.Method(typeof(FarmerRenderer), nameof(FarmerRenderer.textureChanged)),
+        /*harmonyInstance.Patch(AccessTools.Method(typeof(FarmerRenderer), nameof(FarmerRenderer.textureChanged)),
             prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(FarmerTextureChanged)));
         harmonyInstance.Patch(AccessTools.Method(typeof(FarmerRenderer), "_GeneratePixelIndices"),
             prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(GeneratePixelIndices)));
@@ -123,7 +123,7 @@ public partial class HarmonyPatches
                 typeof(float), typeof(float), typeof(Farmer)
             }),
             prefix: new HarmonyMethod(typeof(HarmonyPatches), nameof(FarmerDrawPrefix)),
-            finalizer: new HarmonyMethod(typeof(HarmonyPatches), nameof(FarmerDrawFinalizer)));
+            finalizer: new HarmonyMethod(typeof(HarmonyPatches), nameof(FarmerDrawFinalizer)));*/
     }
 
     private static readonly HashSet<string> _patchErrorsLogged = new();
